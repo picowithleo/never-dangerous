@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+
+/*reference from W3CSchool*/
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  padding-left: 20px;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 100%;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+}
+        </style>
+    </head>
+
+    <body>
+
+
+        <header class="header">
+            <ul>
+                <li><a href="index.php">NEVER DANGEROUS</a></li>
+                <button style="float:right" class="openmenu" onclick="openSideMenu()">&#9776; Menu</button>
+            </ul>
+
+            <div id="sideMenu" class="sidemenu">
+                    <a href="javascript:void(0)" class="closemenu" onclick="closeSideMenu()">&times;</a>
+                    <a href="index.php">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+            </div>
+
+           
+        </header>
+
+        <div class="row">
+            <div class="leftcolumn">
+              <div class="card">
+                <h2>ABOUT NEVER DANGEROUS</h2>
+                <p>Our team is going to create a website similar to the crime map, called "NEVER 
+                    DANGEROUS", to introduce the audience to crime situation in Queensland. The datasets we 
+                    chose shows the crime rate and victim numbers on districts around Queensland. Our purpose 
+                    is to provide effective crime information for the audience through this website, and give the 
+                    caution and prevent the happening of the danger.</p>
+              </div>
+              <div class="card">
+                <h2>TARGET AUDIENCE</h2>
+                <p>The target audience including but not limited to:</p>
+                <ul>
+                    <li>Students</li>
+                    <li>Byers</li>
+                    <li>Tenants</li>
+              </div>
+            </div>
+            <div class="rightcolumn">
+              <div class="card">
+                <h2>About Us</h2>
+                    <ul>
+                        <li>hexin.zheng@uq.net.au</li>
+                        <li>aaronliu@uq.net.au</li>
+                        <li>xiwen.li@uq.net.au</li>
+                        <li>jinyuan.chen@uq.net.au</li>
+                        <li>tianrui@uq.net.au</li>
+                        <li>aaronliu@uq.net.au</li>
+                    </ul>
+              </div>
+        
+            </div>
+          </div>
+
+        
+        <div class="copyright">
+            © 2019 Team 15 RESERVED
+        </div>
+      
+    </body>
